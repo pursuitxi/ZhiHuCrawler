@@ -22,18 +22,18 @@
 
    ```shell
    # 从配置文件中读取指定的文章ID列表获取指定文章的内容
-   python main.py --lt qrcode --type article
+   python spider.py --lt qrcode --type article
 
    # 从配置文件中读取指定的问题ID列表获取指定问题的回答
-   python main.py --lt qrcode --type answer
+   python spider.py --lt qrcode --type answer
    
    # 从配置文件中读取关键词列表获取相关回答与文章
-   python main.py --lt qrcode --type search
+   python spider.py --lt qrcode --type search
   
    # 打开对应APP扫二维码登录
      
    # 其他平台爬虫使用示例, 执行下面的命令查看
-   python main.py --help    
+   python spider.py --help    
    ```
 
 
